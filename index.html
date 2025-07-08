@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Family Office – Jensen Style</title>
+  <title>labdata.ch – Das Finanzlabor für deine Freiheit</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
   <style>
     body {
@@ -26,6 +26,8 @@
       width: 160px;
       max-width: 90vw;
       margin-bottom: 18px;
+      border-radius: 50%;
+      box-shadow: 0 2px 16px #00ffe733;
     }
     .headline {
       font-family: 'Playfair Display', serif;
@@ -33,8 +35,9 @@
       font-weight: 700;
       text-align: center;
       margin-bottom: 0.2em;
-      color: #1a2a36;
+      color: #00bfae;
       letter-spacing: 0.01em;
+      text-shadow: 0 0 12px #00ffe755;
     }
     .subtitle {
       font-size: 1.25em;
@@ -50,12 +53,12 @@
       justify-content: center;
       gap: 40px;
       margin: 0 auto 3em auto;
-      max-width: 900px;
+      max-width: 1100px;
     }
     .feature {
       background: #fff;
       border-radius: 18px;
-      box-shadow: 0 2px 16px #1a2a3622;
+      box-shadow: 0 2px 16px #00bfae22;
       padding: 2.2em 1.7em 1.7em 1.7em;
       min-width: 220px;
       max-width: 270px;
@@ -63,10 +66,11 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      transition: box-shadow 0.2s;
+      transition: box-shadow 0.2s, transform 0.2s;
     }
     .feature:hover {
-      box-shadow: 0 6px 32px #1a2a3644;
+      box-shadow: 0 6px 32px #00bfae44;
+      transform: translateY(-6px) scale(1.03);
     }
     .feature-icon {
       width: 44px;
@@ -80,7 +84,7 @@
       width: 44px;
       height: 44px;
       display: block;
-      stroke: #1a2a36;
+      stroke: #00bfae;
       stroke-width: 1.7;
       fill: none;
     }
@@ -104,7 +108,7 @@
       margin: 3em 0 2em 0;
     }
     .cta-btn {
-      background: #1a2a36;
+      background: #00bfae;
       color: #fff;
       font-family: 'Montserrat', Arial, sans-serif;
       font-size: 1.1em;
@@ -113,13 +117,13 @@
       border: none;
       border-radius: 32px;
       cursor: pointer;
-      box-shadow: 0 2px 12px #1a2a3622;
+      box-shadow: 0 2px 12px #00bfae22;
       transition: background 0.2s, box-shadow 0.2s;
       letter-spacing: 0.04em;
     }
     .cta-btn:hover {
-      background: #2d3e50;
-      box-shadow: 0 4px 24px #1a2a3644;
+      background: #009e8e;
+      box-shadow: 0 4px 24px #00bfae44;
     }
     .footer {
       text-align: center;
@@ -137,84 +141,68 @@
 </head>
 <body>
   <div class="logo">
-    <img src="https://cdn.abacus.ai/images/50d543cf-7817-4d67-a88b-7a00c0dd3ede.png" alt="Family Office Logo" />
+    <img src="https://placehold.co/160x160/00ffe7/0f2027?text=LAB" alt="Labdata Logo" />
   </div>
-  <div class="headline">Jensen Partner Family Office</div>
+  <div class="headline">labdata.ch – Das Finanzlabor</div>
   <div class="subtitle">
-    Unabhängige Beratung, generationsübergreifende Werte und nachhaltige Vermögensplanung.<br>
-    Ihr Partner für diskrete, ganzheitliche Family-Office-Lösungen.
+    Willkommen im digitalen Labor für deine finanzielle Freiheit.<br>
+    KI, Tools, Aktien, Wissen & Innovation – alles an einem Ort.
   </div>
   <div class="features">
     <div class="feature">
       <div class="feature-icon">
         <!-- KI: Gehirn mit Schaltkreisen -->
-        <svg viewBox="0 0 44 44"><ellipse cx="22" cy="22" rx="15" ry="18" stroke="#1a2a36" fill="none"/><circle cx="15" cy="18" r="2.2" fill="#1a2a36"/><circle cx="29" cy="26" r="2.2" fill="#1a2a36"/><path d="M15 18 Q22 22 29 26" stroke="#1a2a36"/></svg>
+        <svg viewBox="0 0 44 44"><ellipse cx="22" cy="22" rx="15" ry="18" stroke="#00bfae"/><circle cx="15" cy="18" r="2.2" fill="#00bfae"/><circle cx="29" cy="26" r="2.2" fill="#00bfae"/><path d="M15 18 Q22 22 29 26" stroke="#00bfae"/></svg>
       </div>
       <div class="feature-title">Künstliche Intelligenz</div>
-      <div class="feature-desc">Modernste KI-Tools für Analyse, Prognose und Automatisierung Ihrer Vermögenswerte.</div>
+      <div class="feature-desc">Modernste KI-Modelle für Analyse, Prognose und smarte Investment-Entscheidungen.</div>
     </div>
     <div class="feature">
       <div class="feature-icon">
         <!-- Tools: Schraubenschlüssel & Zahnrad -->
-        <svg viewBox="0 0 44 44"><circle cx="32" cy="12" r="6" stroke="#1a2a36"/><rect x="8" y="30" width="18" height="4" rx="2" stroke="#1a2a36"/><path d="M32 12 L18 34" stroke="#1a2a36"/></svg>
+        <svg viewBox="0 0 44 44"><circle cx="32" cy="12" r="6" stroke="#00bfae"/><rect x="8" y="30" width="18" height="4" rx="2" stroke="#00bfae"/><path d="M32 12 L18 34" stroke="#00bfae"/></svg>
       </div>
-      <div class="feature-title">Tools & Baukasten</div>
-      <div class="feature-desc">Individuelle Werkzeuge für Ihre persönliche Strategie und effizientes Management.</div>
-    </div>
-    <div class="feature">
-      <div class="feature-icon">
-        <!-- DNA: Helix -->
-        <svg viewBox="0 0 44 44"><path d="M14 10 Q22 22 30 34" stroke="#1a2a36"/><path d="M30 10 Q22 22 14 34" stroke="#1a2a36"/></svg>
-      </div>
-      <div class="feature-title">DNA & Werte</div>
-      <div class="feature-desc">Verbindung von Tradition, Innovation und Familienwerten für nachhaltigen Erfolg.</div>
-    </div>
-    <div class="feature">
-      <div class="feature-icon">
-        <!-- Storys: Offenes Buch -->
-        <svg viewBox="0 0 44 44"><path d="M8 32 Q22 20 36 32" stroke="#1a2a36"/><path d="M8 32 Q22 44 36 32" stroke="#1a2a36"/><line x1="22" y1="20" x2="22" y2="44" stroke="#1a2a36"/></svg>
-      </div>
-      <div class="feature-title">Storys & Wissen</div>
-      <div class="feature-desc">Erfahrungen, Bücher und Best Practices aus der Welt der Family Offices.</div>
+      <div class="feature-title">Finanz-Tools</div>
+      <div class="feature-desc">Individuelle Werkzeuge für Portfolio-Optimierung, Risikoanalyse und Strategie-Simulation.</div>
     </div>
     <div class="feature">
       <div class="feature-icon">
         <!-- Analyse: Lupe -->
-        <svg viewBox="0 0 44 44"><circle cx="18" cy="18" r="8" stroke="#1a2a36"/><line x1="24" y1="24" x2="36" y2="36" stroke="#1a2a36"/></svg>
+        <svg viewBox="0 0 44 44"><circle cx="18" cy="18" r="8" stroke="#00bfae"/><line x1="24" y1="24" x2="36" y2="36" stroke="#00bfae"/></svg>
       </div>
-      <div class="feature-title">Analyse</div>
-      <div class="feature-desc">Tiefgehende Analysen und Reports für fundierte Entscheidungen.</div>
+      <div class="feature-title">Aktien & Märkte</div>
+      <div class="feature-desc">Scanne globale Märkte, finde Chancen und erhalte Echtzeit-Alerts zu deinen Favoriten.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">
+        <!-- Storys: Offenes Buch -->
+        <svg viewBox="0 0 44 44"><path d="M8 32 Q22 20 36 32" stroke="#00bfae"/><path d="M8 32 Q22 44 36 32" stroke="#00bfae"/><line x1="22" y1="20" x2="22" y2="44" stroke="#00bfae"/></svg>
+      </div>
+      <div class="feature-title">Know-how & Bildung</div>
+      <div class="feature-desc">Wissensdatenbank, Tutorials und Webinare für deinen finanziellen Vorsprung.</div>
     </div>
     <div class="feature">
       <div class="feature-icon">
         <!-- Ideen: Glühbirne -->
-        <svg viewBox="0 0 44 44"><ellipse cx="22" cy="18" rx="8" ry="10" stroke="#1a2a36"/><rect x="18" y="28" width="8" height="6" rx="2" stroke="#1a2a36"/></svg>
+        <svg viewBox="0 0 44 44"><ellipse cx="22" cy="18" rx="8" ry="10" stroke="#00bfae"/><rect x="18" y="28" width="8" height="6" rx="2" stroke="#00bfae"/></svg>
       </div>
-      <div class="feature-title">Ideen & Innovation</div>
-      <div class="feature-desc">Kreative Lösungen und neue Ansätze für Ihr Vermögen und Ihre Familie.</div>
+      <div class="feature-title">Innovation & Trends</div>
+      <div class="feature-desc">Erkenne neue Trends, nutze innovative Ansätze und bleibe immer einen Schritt voraus.</div>
     </div>
     <div class="feature">
       <div class="feature-icon">
         <!-- IT: Monitor -->
-        <svg viewBox="0 0 44 44"><rect x="8" y="14" width="28" height="16" rx="3" stroke="#1a2a36"/><rect x="16" y="32" width="12" height="4" rx="2" stroke="#1a2a36"/></svg>
+        <svg viewBox="0 0 44 44"><rect x="8" y="14" width="28" height="16" rx="3" stroke="#00bfae"/><rect x="16" y="32" width="12" height="4" rx="2" stroke="#00bfae"/></svg>
       </div>
-      <div class="feature-title">Digital & IT</div>
-      <div class="feature-desc">Sichere, moderne IT-Infrastruktur und digitale Tools für Ihr Office.</div>
-    </div>
-    <div class="feature">
-      <div class="feature-icon">
-        <!-- Handwerk: Hammer -->
-        <svg viewBox="0 0 44 44"><rect x="28" y="10" width="4" height="18" rx="2" stroke="#1a2a36"/><rect x="12" y="28" width="20" height="4" rx="2" stroke="#1a2a36"/></svg>
-      </div>
-      <div class="feature-title">Handwerk & Umsetzung</div>
-      <div class="feature-desc">Praktische Unterstützung bei der Umsetzung Ihrer Strategien.</div>
+      <div class="feature-title">Sicherheit & IT</div>
+      <div class="feature-desc">Deine Daten sind geschützt – mit moderner Infrastruktur und Verschlüsselung.</div>
     </div>
   </div>
   <div class="cta">
-    <a href="https://equitycompass.replit.app/" target="_blank" rel="noopener"><button class="cta-btn">Login</button></a>
+    <a href="https://equitycompass.replit.app/" target="_blank" rel="noopener"><button class="cta-btn">Jetzt starten</button></a>
   </div>
   <div class="footer">
-    &copy; 2024 Jensen Partner Family Office
+    &copy; 2025 labdata.ch – Das Labor für deine finanzielle Freiheit
   </div>
 </body>
 </html>
