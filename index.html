@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family Office – Jensen Style</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f7f7f2;
+      color: #1a2a36;
+      font-family: 'Montserrat', Arial, sans-serif;
+      min-height: 100vh;
+      letter-spacing: 0.01em;
+    }
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 48px;
+      margin-bottom: 32px;
+    }
+    .logo img {
+      width: 160px;
+      max-width: 90vw;
+      margin-bottom: 18px;
+    }
+    .headline {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.6em;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 0.2em;
+      color: #1a2a36;
+      letter-spacing: 0.01em;
+    }
+    .subtitle {
+      font-size: 1.25em;
+      text-align: center;
+      color: #3a4a56;
+      margin-bottom: 2.5em;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin: 0 auto 3em auto;
+      max-width: 900px;
+    }
+    .feature {
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 2px 16px #1a2a3622;
+      padding: 2.2em 1.7em 1.7em 1.7em;
+      min-width: 220px;
+      max-width: 270px;
+      flex: 1 1 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: box-shadow 0.2s;
+    }
+    .feature:hover {
+      box-shadow: 0 6px 32px #1a2a3644;
+    }
+    .feature-icon {
+      width: 44px;
+      height: 44px;
+      margin-bottom: 0.7em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .feature-icon svg {
+      width: 44px;
+      height: 44px;
+      display: block;
+      stroke: #1a2a36;
+      stroke-width: 1.7;
+      fill: none;
+    }
+    .feature-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.18em;
+      font-weight: 700;
+      margin-bottom: 0.5em;
+      color: #1a2a36;
+      text-align: center;
+    }
+    .feature-desc {
+      font-size: 1em;
+      color: #3a4a56;
+      text-align: center;
+      font-family: 'Montserrat', Arial, sans-serif;
+    }
+    .cta {
+      display: flex;
+      justify-content: center;
+      margin: 3em 0 2em 0;
+    }
+    .cta-btn {
+      background: #1a2a36;
+      color: #fff;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 1.1em;
+      font-weight: 500;
+      padding: 1em 2.5em;
+      border: none;
+      border-radius: 32px;
+      cursor: pointer;
+      box-shadow: 0 2px 12px #1a2a3622;
+      transition: background 0.2s, box-shadow 0.2s;
+      letter-spacing: 0.04em;
+    }
+    .cta-btn:hover {
+      background: #2d3e50;
+      box-shadow: 0 4px 24px #1a2a3644;
+    }
+    .footer {
+      text-align: center;
+      color: #3a4a56;
+      font-size: 1em;
+      margin: 2em 0 0 0;
+      font-family: 'Montserrat', Arial, sans-serif;
+      opacity: 0.7;
+    }
+    @media (max-width: 900px) {
+      .features { flex-direction: column; gap: 24px; }
+      .feature { max-width: 95vw; }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="https://cdn.abacus.ai/images/50d543cf-7817-4d67-a88b-7a00c0dd3ede.png" alt="Family Office Logo" />
+  </div>
+  <div class="headline">Jensen Partner Family Office</div>
+  <div class="subtitle">
+    Unabhängige Beratung, generationsübergreifende Werte und nachhaltige Vermögensplanung.<br>
+    Ihr Partner für diskrete, ganzheitliche Family-Office-Lösungen.
+  </div>
+  <div class="features">
+    <div class="feature">
+      <div class="feature-icon">
+        <!-- KI: Gehirn mit Schaltkreisen -->
+        <svg viewBox="0 0 44 44"><ellipse cx="22" cy="22" rx="15" ry="18" stroke="#1a2a36" fill="none"/><circle cx="15" cy="18" r="2.2" fill="#1a2a36"/><circle cx="29" cy="26" r="2.2" fill="#1a2a36"/><path d="M15 18 Q22 22 29 26" stroke="#1a2a36"/></svg>
+      </div>
+      <div class="feature-title">Künstliche Intelligenz</div>
+      <div class="feature-desc">Modernste KI-Tools für Analyse, Prognose und Automatisierung Ihrer Vermögenswerte.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">
+        <!-- Tools: Schraubenschlüssel & Zahnrad -->
+        <svg viewBox="0 0 44 44"><circle cx="32" cy="12" r="6" stroke="#1a2a36"/><rect x="8" y="30" width="18" height="4" rx="2" stroke="#1a2a36"/><path d="M32 12 L18 34" stroke="#1a2a36"/></svg>
+      </div>
+      <div class="feature-title">Tools & Baukasten</div>
+      <div class="feature-desc">Individuelle Werkzeuge für Ihre persönliche Strategie und effizientes Management.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">
+        <!-- DNA: Helix -->
+        <svg viewBox="0 0 44 44"><path d="M14 10 Q22 22 30 34" stroke="#1a2a36"/><path d="M30 10 Q22 22 14 34" stroke="#1a2a36"/></svg>
+      </div>
+      <div class="feature-title">DNA & Werte</div>
+      <div class="feature-desc">Verbindung von Tradition, Innovation und Familienwerten für nachhaltigen Erfolg.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">
+        <!-- Storys: Offenes Buch -->
+        <svg viewBox="0 0 44 44"><path d="M8 32 Q22 20 36 32" stroke="#1a2a36"/><path d="M8 32 Q22 44 36 32" stroke="#1a2a36"/><line x1="22" y1="20" x2="22" y2="44" stroke="#1a2a36"/></svg>
+      </div>
+      <div class="feature-title">Storys & Wissen</div>
+      <div class="feature-desc">Erfahrungen, Bücher und Best Practices aus der Welt der Family Offices.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">
+        <!-- Analyse: Lupe -->
+        <svg viewBox="0 0 44 44"><circle cx="18" cy="18" r="8" stroke="#1a2a36"/><line x1="24" y1="24" x2="36" y2="36" stroke="#1a2a36"/></svg>
+      </div>
+      <div class="feature-title">Analyse</div>
+      <div class="feature-desc">Tiefgehende Analysen und Reports für fundierte Entscheidungen.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">
+        <!-- Ideen: Glühbirne -->
+        <svg viewBox="0 0 44 44"><ellipse cx="22" cy="18" rx="8" ry="10" stroke="#1a2a36"/><rect x="18" y="28" width="8" height="6" rx="2" stroke="#1a2a36"/></svg>
+      </div>
+      <div class="feature-title">Ideen & Innovation</div>
+      <div class="feature-desc">Kreative Lösungen und neue Ansätze für Ihr Vermögen und Ihre Familie.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">
+        <!-- IT: Monitor -->
+        <svg viewBox="0 0 44 44"><rect x="8" y="14" width="28" height="16" rx="3" stroke="#1a2a36"/><rect x="16" y="32" width="12" height="4" rx="2" stroke="#1a2a36"/></svg>
+      </div>
+      <div class="feature-title">Digital & IT</div>
+      <div class="feature-desc">Sichere, moderne IT-Infrastruktur und digitale Tools für Ihr Office.</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">
+        <!-- Handwerk: Hammer -->
+        <svg viewBox="0 0 44 44"><rect x="28" y="10" width="4" height="18" rx="2" stroke="#1a2a36"/><rect x="12" y="28" width="20" height="4" rx="2" stroke="#1a2a36"/></svg>
+      </div>
+      <div class="feature-title">Handwerk & Umsetzung</div>
+      <div class="feature-desc">Praktische Unterstützung bei der Umsetzung Ihrer Strategien.</div>
+    </div>
+  </div>
+  <div class="cta">
+    <a href="https://equitycompass.replit.app/" target="_blank" rel="noopener"><button class="cta-btn">Login</button></a>
+  </div>
+  <div class="footer">
+    &copy; 2024 Jensen Partner Family Office
+  </div>
+</body>
+</html>
